@@ -15,14 +15,48 @@ code {
 .links{
   display: flex;
   justify-content: space-evenly;
+  background-color: yellowgreen;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.project-one{
-  display: flex;
-  justify-content: space-evenly;
+.Projects{
+  
 }
 
-.project-two{
+.project-one-card{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+.project-two-card{
+  display: flex;
+  justify-content: space-around
+}
+
+.Footer{
+  border: 2px solid black;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.boxes{
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxes > *:nth-child(1) {
+  flex: 1 1 70%
+}
+
+.boxes > *:nth-child(2) {
+  flex: 1 1 30%
+}
+
+.Flexbox{
+  border: 2px solid black; 
+}
+
+.Bottom{
+  border: 2px solid black;
 }
