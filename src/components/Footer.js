@@ -2,7 +2,7 @@
 const Footer = (props) => {
 
     //The Components Returned JSX
-    return <div className="Footer"> This is Footer
+    return <div className="Footer"> Lets get to work
 
         <div className="boxes">
             <div className="Flexbox">

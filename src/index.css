@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
 }
 
 code {
@@ -12,25 +13,50 @@ code {
     monospace;
 }
 
+.Header{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  color: blue;
+}
+
 .links{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: yellowgreen;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .Projects{
-  
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .project-one-card{
-  display: flex;
-  justify-content: space-around;
+  border: 2px solid black;
+  text-align: center;
+  width: 80%;
+  max-width: 200px;
+  background-color: yellow;
 }
 
 .project-two-card{
+  border: 2px solid black;
+  text-align: center;
+  width: 80%;
+  max-width: 200px;
+  background-color: yellow;
+}
+
+.link-one{
   display: flex;
-  justify-content: space-around
+  text-align: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.link-two{
+
 }
 
 .Footer{
@@ -38,6 +64,8 @@ code {
   position: fixed;
   width: 100%;
   bottom: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
 }
 
 .boxes{
@@ -54,9 +82,13 @@ code {
 }
 
 .Flexbox{
-  border: 2px solid black; 
+  border: 2px solid white; 
+  background-color: black;
+  color: white;
 }
 
 .Bottom{
-  border: 2px solid black;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
 }
